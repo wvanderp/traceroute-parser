@@ -25,5 +25,5 @@ sftp-config.json
 
 ### traceroutes ###
 
-lft\*
-tracert\*
+lft/*
+tracert/*
