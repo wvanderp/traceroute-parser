@@ -19,12 +19,12 @@
 		switch ($prog) {
 			case 'lft':
 				#layer four tracer
-				var_dump(lft($file));
+				$ttl = lft($file);
 			break;
 
 			case 'tracert':
 				#windows tracert
-				var_dump(tracert($file));
+				$ttl = tracert($file);
 			break;
 			
 			default:
